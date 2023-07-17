@@ -44,5 +44,9 @@ contract MyToken {
 }
 
 ```
+## Authors
+Metacrafter Chris  
+[@metacraftersio](https://twitter.com/metacraftersio)
+
 ## License
 This project is licensed under the MIT License
