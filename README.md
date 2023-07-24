@@ -2,7 +2,7 @@
 This is a contract program creating a token that contains burn and mint functions along with various public variables.
 ## Description
 
-In this code, two functions has been created that is mint and burn, mint function is used to store the values for totalSupply(public variable) and balances(mapping variable) that will show the current amount of token and burn function to transact some amount of token and accordingly the values of totalSupply and balances get updated. And to do all this account address needs to be copied and pasted in the address section of totalSupply and balances.
+In this code, two functions has been created that is mint and burn, mint function is used to store the values for totalSupply(public variable) and balances(mapping variable) that will show the current amount of token and burn function to transact some amount of token and accordingly the values of totalSupply and balances get updated. And to do all this account address needs to be copied and pasted in the address section of totalSupply and balances. Also there are two other public variables denoting tokenName and tokenAbbrv.
 
 ## Getting Started
 ### Executing program
@@ -37,9 +37,15 @@ contract MyToken {
 }
 
 ```
+
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.4" (or another compatible version), and then click on the "Compile myToken.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "myToken" contract from the dropdown menu, and then click on the "Deploy" button. 
+
+Once the contract is deployed, you can interact with it by calling mint and burn function by pasting the account address and the value that has ro be store or get deducted . Click on the "myToken" contract in the left-hand sidebar, and then click on the "mint" function. Finally, click on the "transact" button to execute the function and retrieve the tokenSupply and balance amount.
+
 ## Authors
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Nikhil Upadhyay
 
 ## License
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
